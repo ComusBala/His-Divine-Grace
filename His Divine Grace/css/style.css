@@ -1,0 +1,75 @@
+/* common css design starts here */
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.justify {
+  text-align: justify;
+}
+/* common css design end here */
+/* gallary css design starts here */
+.logo-style {
+  color: white;
+  transition: 0.3s;
+}
+.logo-style:hover {
+  transform: scale(1.03);
+  color: black;
+}
+.nav-link {
+  color: white;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  transform: scale(1.03);
+  color: black;
+}
+/* gallary css design end here */
+/* header css design starts here */
+.banner-background {
+  background-image: url(/images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-content p {
+  font-family: "Licorice", cursive;
+  font-size: 3.5rem;
+}
+/* header css design end here */
+/* gallary css design starts here */
+.gallary-container img {
+  box-shadow: -3px -3px black;
+  transition: 0.3s;
+}
+.gallary-container img:hover {
+  transform: scale(1.03);
+}
+/* gallary css design end here */
+/* features css design starts here */
+.card {
+  background-image: url(/images/cardphoto.jpg);
+  background-size: cover;
+  background-color: rgb(128, 128, 128);
+  height: 380px;
+  box-shadow: -3px -3px black;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+/* features css design end here */
+/* about-me css design starts here */
+.dotted-hr {
+  margin: 20px auto;
+  width: 50px;
+  border: dotted 8px black;
+  border-bottom: none;
+  color: white;
+}
+/* about-me css design end here */
